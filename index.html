@@ -54,7 +54,7 @@
     <main>
         <div class="container py-3">
             <div class="row">
-                <div class="col-8">
+                <div class="col-lg-8">
                     <div class=" d-flex justify-content-between">
                         <h2>Catalogo Libri</h2>
                         <button type="button" class="btn btn-primary">Aggiungi Libri</button>
@@ -64,7 +64,7 @@
                         <thead>
                             <tr>
                                 <th class="w-50" scope="col">Titolo</th>
-                                <th class="w-20" scope="col">Data prestito</th>
+                                <th class="w-20 d-none d-md-table-cell" scope="col">Data prestito</th>
                                 <th class="w-15" scope="col">Stato</th>
                                 <th class="w-5 text-center" scope="col">Azioni</th>
                             </tr>
@@ -72,7 +72,7 @@
                         <tbody>
                             <tr>
                                 <td scope="row">I pilastri della terra</td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge bg-success">Disponibile</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -85,7 +85,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">I promessi sposi</td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge bg-success">Disponibile</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -98,7 +98,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">Il signore degli anelli</td>
-                                <td>18/10/2023</td>
+                                <td class="d-none d-md-table-cell">18/10/2023</td>
                                 <td><span class="badge bg-warning">In Prestito</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -111,7 +111,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">Harry Potter e la pietra filosofale</td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge bg-success">Disponibile</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -124,7 +124,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">Il codice Da Vinci</td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge bg-danger">Non Disponibile</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -137,7 +137,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">Shining</td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge bg-success">Disponibile</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -150,7 +150,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">La divina commedia</td>
-                                <td>21/09/2023</td>
+                                <td class="d-none d-md-table-cell">21/09/2023</td>
                                 <td><span class="badge bg-warning">In Prestito</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -163,7 +163,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">Il trono di spade</td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge bg-success">Disponibile</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -176,7 +176,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">Il mondo di Sofia</td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge bg-danger">Non Disponibile</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -189,7 +189,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">Le cronache di arnia: il leone, la strega e l'armadio</td>
-                                <td>25/07/2023</td>
+                                <td class="d-none d-md-table-cell">25/07/2023</td>
                                 <td><span class="badge bg-warning">In Prestito</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -202,7 +202,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">Il piccolo principe</td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge bg-success">Disponibile</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -215,7 +215,7 @@
                             </tr>
                             <tr>
                                 <td scope="row">La storia infinita</td>
-                                <td>-</td>
+                                <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge bg-success">Disponibile</span></td>
                                 <td class="text-center">
                                     <button class="text-secondary">
@@ -230,8 +230,8 @@
                     </table>
                 </div>
 
-                <div class="col-4">
-                    <div class="card mb-3" style="width: 19rem;">
+                <div class="col-lg-4">
+                    <div class="card mb-3">
                         <div class="card-header">
                             <h3>To-do</h3>
                         </div>
@@ -259,7 +259,7 @@
                         </div>
                     </div>
 
-                    <div class="card" style="width: 19rem;">
+                    <div class="card">
                         <div class="card-header">
                             <h3>F.A.Q.</h3>
                         </div>
@@ -318,9 +318,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
     </main>
 </body>
 
