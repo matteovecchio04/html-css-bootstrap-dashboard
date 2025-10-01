@@ -41,10 +41,6 @@
                             <a class="nav-link" href="#">Help</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
-                        <button type="button" class="btn btn-outline-light">Cerca</button>
-                    </form>
                 </div>
             </div>
         </nav>
@@ -53,9 +49,53 @@
 </body>
 
 <main>
+    <form>
+        <div class="container py-4">
+            <h1 class="py-2">Nuovo Libro</h1>
+            <div class="row py-2">
+                <div class="col-6">
+                    <h4>Nome autore</h4>
+                    <input class="w-100 form-control" type="text" placeholder="Inserisci il nome dell'autore" required>
+                </div>
+                <div class="col-6">
+                    <h4>Cognome autore</h4>
+                    <input class="w-100 form-control" type="text" placeholder="Inserisci il cognome dell'autore"
+                        required>
+                </div>
+            </div>
+            <div class="row py-2">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="" class="form-label"><strong>Titolo</strong></label>
+                        <input type="text" name="" id="" class="form-control"
+                            placeholder="Inserisci il titolo del libro" aria-describedby="helpId" />
+                        <small id="helpId" class="text-muted">Titolo versione italiana</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="mb-3">
+                        <label for="" class="form-label">City</label>
+                        <select class="form-select form-select-lg" name="" id="">
+                            <option selected>Choose a genere</option>
+                            <option value="">Sci-Fi</option>
+                            <option value="">Fiction</option>
+                            <option value="">Horror</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
 
+
+
+            </div>
+        </div>
+        </div>
+    </form>
 </main>
 
 <footer>
-    
+
 </footer>
